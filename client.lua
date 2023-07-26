@@ -55,6 +55,7 @@ local vehHeaderMenu = {
 }
 
 local vehOptions = {
+    --[[
     {
         header = 'Repair Vehicle',
         txt = 'Make your vehicle good as new!',
@@ -63,6 +64,7 @@ local vehOptions = {
             event = 'qb-customs:client:repairVehicle'
         }
     },
+    --]]
     {
         header = 'View Upgrades',
         txt = 'Browse vehicle performance mods!',
