@@ -23,7 +23,7 @@ Config.Shops = {
         ['blipCoords'] = vector3(-337.86, -136.35, 39.01) -- Blip coordinates
     },
     ['bennys'] = {
-        ['job'] = 'mechanic', -- Unlocked for all, comes from player cash/bank is = 'none'
+        ['job'] = 'mechanic', -- Unlocked for all, comes from player cash/bank if is = 'none'
         ['zone'] = {
             ['shape'] = {
                 vector2(-203.55299377441, -1311.2630615234),
@@ -102,7 +102,7 @@ Config.Shops = {
 
 Config.Pricing = {
     ['type'] = 'variable', -- accepts 'fixed' or 'variable'
-    ['repair'] = 2500, -- cost to repair vehicle
+    ['repair'] = 750, -- cost to repair vehicle
     ['fixed'] = { -- base price by level
         ['armor'] = {
             ['-1'] = 0,
@@ -190,5 +190,19 @@ Config.Pricing = {
         },
         ['turbo'] = 0.7,
         ['max'] = 0.9,
+    },
+    ['cosmetics'] = {
+        ['spoiler'] = 2500,
+        ['front_bumper'] = 1500,
+        ['rear_bumper'] = 1500,
+        ['skirts'] = 2000,
+        ['exhaust'] = 1500,
+        ['grille'] = 2000,
+        ['hood'] = 3500,
+        ['roof'] = 3500,
+        ['windowTints'] = 1000,
+        ['lights'] = 1000,
+        ['plates'] = 2000,
+        ['wheels'] = 5000 -- This needs to be changed, wheels having a set price isn't good, will be working on a min/max in the future.
     }
 }
