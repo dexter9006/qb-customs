@@ -23,7 +23,7 @@ Config.Shops = {
         ['blipCoords'] = vector3(-337.86, -136.35, 39.01) -- Blip coordinates
     },
     ['bennys'] = {
-        ['job'] = 'none', -- Unlocked for all, comes from player cash/bank
+        ['job'] = 'mechanic', -- Unlocked for all, comes from player cash/bank is = 'none'
         ['zone'] = {
             ['shape'] = {
                 vector2(-203.55299377441, -1311.2630615234),
@@ -44,7 +44,7 @@ Config.Shops = {
         ['blipCoords'] = vector3(-211.73, -1325.28, 30.89) -- Blip coordinates
     },
     ['harmony'] = {
-        ['job'] = 'none',
+        ['job'] = 'mechanic',
         ['zone'] = {
             ['shape'] = {
                 vector2(1172.1085205078, 2644.75390625),
@@ -62,7 +62,7 @@ Config.Shops = {
         ['blipCoords'] = vector3(1174.93, 2639.45, 37.75) -- Blip coordinates
     },
     ['paleto'] = {
-        ['job'] = 'none',
+        ['job'] = 'mechanic',
         ['zone'] = {
             ['shape'] = {
                 vector2(109.28326416016, 6631.9150390625),
@@ -80,7 +80,7 @@ Config.Shops = {
         ['blipCoords'] = vector3(109.95, 6627.34, 31.79) -- Blip coordinates
     },
     ['airport'] = {
-        ['job'] = 'none',
+        ['job'] = 'mechanic',
         ['zone'] = {
             ['shape'] = {
                 vector2(-1147.5499267578, -1990.1391601562),
